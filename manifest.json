@@ -3,7 +3,7 @@
   "version": "1.0",
   
   "author": "RJDesidia",
-  "description": "скачивает guitar pro файл с сайта Songsterr",
+  "description": "скачивает guitar pro файл с сайта Songsterr", "download guitar pro file from songsterr website"
   "permissions": [
     "activeTab",
     "declarativeContent",
