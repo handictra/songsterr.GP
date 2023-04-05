@@ -14,12 +14,13 @@
     "https://www.songsterr.com/*",
     "https://songsterr.com/*"
   ],
+  //Manifest v3
   "background": {
-    "scripts": [
+    "service_worker": 
       "songDownloader.js"
-    ]
   },
-  "browser_action": {
+  //Manifest v3
+  "action": {
     "default_title": "songsterr.gp",
     "default_icon": "icon512.png"
   },
@@ -41,5 +42,6 @@
       ]
     }
   ],
-  "manifest_version": 2
+ //Manifest v3
+"manifest_version": 3
 }
